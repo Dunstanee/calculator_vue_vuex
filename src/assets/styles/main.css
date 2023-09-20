@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Urbanist";
+    src: local("Urbanist"),
+    url('../fonts/Urbanist/Urbanist-VariableFont_wght.ttf') format("truetype");
+}
+@font-face {
+    font-family: "OpenSans";
+    src: local("OpenSans"),
+    url('../fonts/OpenSans/OpenSans-VariableFont_wdth,wght.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+    url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Raleway";
+    src: local("Raleway"),
+    url('../fonts/Raleway/Raleway-VariableFont_wght.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+    url('../fonts/Poppins/Poppins-Bold.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Syne";
+    src: local("Syne"),
+    url('../fonts/Syne/Syne-VariableFont_wght.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Digital7";
+    src: local("Digital7"),
+    url('../fonts/digital7/digital_counter_7.ttf') format("truetype");
+}
+@font-face {
+    font-family: "zekton";
+    src: local("zekton"),
+    url('../fonts/zekton/zekton_rg.otf') format("truetype");
+}
+@font-face {
+    font-family: "valko";
+    src: local("valko"),
+    url('../fonts/valko/VALKOCAPELA.otf') format("truetype");
+}
+
+*{
+    font-family: "Urbanist", serif;
+}
