@@ -80,6 +80,9 @@ watch(syntaxValue,()=>{
   align-items: center;
   color: white;
 }
+.numberCountClear:hover{
+  background-color: #dc0e0e;
+}
 #screenWindow:focus{
   border: 0;
   outline: 0;
